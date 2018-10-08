@@ -44,17 +44,16 @@
 
 %-------------------------
 % Custom commands
-\newcommand{\resumeItem}[2]{
+\newcommand{\resumeItem}[1]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+    {}
   }
 }
 
-\newcommand{\resumeSubheading}[4]{
+\newcommand{\resumeSubheading}[3]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
+      \textbf{#1} - #2  & \textit{\small #3}
     \end{tabular*}\vspace{-5pt}
 }
 
@@ -68,14 +67,14 @@
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
-%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \begin{document}
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{http://sourabhbajaj.com/}{\Large Xiaoting Fu}} & Email : \href{mailto:xiaot.fu@gmail.com}{xiaot.fu@gmail.com}\\
+  \textbf{{\Large Xiaoting Fu}} & Email : \href{mailto:xiaot.fu@gmail.com}{xiaot.fu@gmail.com}\\
   3133A Kings Ct, Raleigh, NC, 27606, USA  & Mobile : +1-919-884-0552 \\
 \end{tabular*}
 
@@ -83,86 +82,101 @@
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
-
+  % Project 1
     \resumeSubheading
-      {ABB Inc.}{Raleigh, NC}
-      {Software Engineer Intern}{May 2018 - Aug. 2018}
+      {ABB Inc. Software Engineer Intern}{Raleigh, NC}
+      {May 2018 - Aug. 2018}
       \resumeItemListStart
-        \resumeItem{SQLite}
-          { }
+        \resumeItem{Databases Conversion}
+          {Developed tools to convert between different format of databases (SQLite and MS Access)}
+        \resumeItem{Databases Comparison}
+          {Programmed tools for database comparison, changes revision and changes application from one database to another}
+        \resumeItem{Database Editing}
+          {Designed visual interfaces for editing the SQLite database}
         \resumeItem{SQL Parser}
-          { }
+          {Implemented a SQL Parser for generating SQL action queries based on composite display queries} 
       \resumeItemListEnd
-
+% Project 2
     \resumeSubheading
-      {Coursera}{Mountain View, CA}
-      {Senior Software Engineer}{Jan 2014 - Oct 2016}
+    {Continueous Children Speech Recognition Research}{ArgLab, Raleigh, NC}
+      {Jan 2018 - May 2018}
       \resumeItemListStart
-        \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        \resumeItem{Nostos}
-          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
-        \resumeItem{Workflows}
-          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
-        \resumeItem{Data Collection}
-          {Designed the internal survey and crowd sourcing platfowm which allowed for creating various tasks for crowd sourding or embedding surveys across the Coursera platform.}
-        \resumeItem{Dev Environment}
-          {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
-        \resumeItem{Data Warehousing}
-          {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
-        \resumeItem{Recommendations}
-          {Core service for all recommendation systems at Coursesa, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
-        \resumeItem{Content Discovery}
-          {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
-        \resumeItem{Course Dashboards}
-          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
+        \resumeItem{Audio Analysis}
+          {Evaluated audio quality using signal-to-noise ratio and visualize the results}
+        \resumeItem{Transcription Processing}
+          {Applied forced alignment to get the timestamps of the human generated transcriptions}
+        \resumeItem{Acoustic and Language Model Training}
+          {Used Kaldi nnet3 to train an acoustic model with for 40 hours of children's speech and use Librispeech corpus to train the language model}
+        \resumeItem{}
+        {Compared word-error-rate (WER) of the existing open-source speech recognition toolkits on children speech corpus including Kaldi and CMU Sphinx.}
+        \resumeItem{}{Applied speaker adaptation, vocal tract length normalization (VTLN) to improve the existing models.}
       \resumeItemListEnd
-
+    
     \resumeSubheading
-      {Lucena Research}{Atlanta, GA}
-      {Data Scientist}{Summer 2012 and 2013}
+      {FLECKS Project: Intelligent Agent Prototype }{ArgLab, Raleigh, NC}
+      {June 2018 - Present}
       \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
+        \resumeItem{Web Server Deployment}
+          {Deployed the RHEL server for web hosting with Docker Container}
+        \resumeItem{Audio Streaming}
+          {Coded the website to stream audio using Socket.io}
+          \resumeItem{Real-time Speech recognition }
+          {Integrated the Kaldi toolkit as a web service}
       \resumeItemListEnd
 
+      \resumeSubheading
+      {Spoken Language Assessment for ESL Learner}{ArgLab, Raleigh, NC}
+      {Sept 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{ }
+          {Built an automatic spoken language assessment system based on the grammatical and semantical correctness of speech responses}
+        \resumeItem{ }
+          {Trained an ASR engine with 9,000+ utterances from ESL learners along with 1,000+ hours external speech }
+        \resumeItem{}
+          {Applied pitch normalization and speech adaptation techniques to reduce differences between different models}
+        \resumeItem{ }
+          {Trained a supervised neural network classifier on the output transcription for response quality assessment}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {Android Electronic Health Record System}{WKU, China}
+      {Jan 2017 - May 2017}
+      \resumeItemListStart
+        \resumeItem{ }
+          {Developed an Android application for recording health data of the older adults}
+        \resumeItem{ }
+          {Used Firebase for real-time database interaction}
+        \resumeItem{}
+          {Provided Health record visualization for user and recommend food and activity based on user daily data record}
+        \resumeItem{}
+          {Generated user manual and documentations for future references}
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
 %-----------PROJECTS-----------------
-\section{Projects}
-  \resumeSubHeadingListStart
-    \resumeSubItem{QuantSoftware Toolkit}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{Github Visualization}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Recommendation System}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-%     \resumeSubItem{Mac Setup}
-%       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
-  \resumeSubHeadingListEnd
+
 
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
       {North Carolina State University}{Raleigh, NC}
-      {Ph.D. in Computer Science;  GPA: 3.7 / 4.0}{Aug. 2017 -- Present}
+      {Aug. 2017 -- Present}
+      
+      Ph.D. in Computer Science;  GPA: 3.7 / 4.0
     \resumeSubheading
       {Wenzhou-Kean University}{Zhejiang, China}
-      {Bachelor of Computer Science; GPA: 3.9 / 4.0}{Sept. 2013 -- Jun. 2017}
+      {Sept. 2013 -- Jun. 2017}
+      
+      B.S. of Computer Science; GPA: 3.9 / 4.0
   \resumeSubHeadingListEnd
 
 %-----------SKILLS AND INTERESTS-----------------
 \section{Skills and Interests}
  \resumeSubHeadingListStart
    \item{
-     \textbf{Languages}{: Python, Shell, Java, C\#, JS, SQL, PHP}
-     \hfill
-     \textbf{Technologies}{: Unix OS, Docker, Kaldi, CMU\-Sphinx}
-   }
+     \textbf{Languages}{: Python, Shell, Java, C\#, SQLite, NodeJS, Unix OS, Docker, Kaldi, CMU\-Sphinx, Tensorflow}}
  \resumeSubHeadingListEnd
 
 
