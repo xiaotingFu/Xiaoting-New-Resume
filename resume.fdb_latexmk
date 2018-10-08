@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1538968154 "/Users/gy/build/Xiaoting-New-Resume/resume.tex" "resume.pdf" "resume" 1538968154
-  "/Users/gy/build/Xiaoting-New-Resume/resume.tex" 1538968153 6861 497308d8838681258add12b5e922d633 ""
+["pdflatex"] 1538968438 "/Users/gy/build/Xiaoting-New-Resume/resume.tex" "resume.pdf" "resume" 1538968439
+  "/Users/gy/build/Xiaoting-New-Resume/resume.tex" 1538968438 6865 40cb5c472e188e18cf9b124c09e8078d ""
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -61,11 +61,11 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1476099376 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1476099435 3873398 81783cea6ca9e1b6a7f216253ed4280d ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "resume.aux" 1538968154 906 06a9742e275ddd03e4f8b048e0cf2c17 ""
-  "resume.out" 1538968154 130 d2406da373c5ff9d5ec8fa0371548985 ""
-  "resume.tex" 1538968153 6861 497308d8838681258add12b5e922d633 ""
+  "resume.aux" 1538968439 906 06a9742e275ddd03e4f8b048e0cf2c17 ""
+  "resume.out" 1538968439 130 d2406da373c5ff9d5ec8fa0371548985 ""
+  "resume.tex" 1538968438 6865 40cb5c472e188e18cf9b124c09e8078d ""
   (generated)
-  "resume.aux"
   "resume.out"
-  "resume.log"
   "resume.pdf"
+  "resume.aux"
+  "resume.log"
