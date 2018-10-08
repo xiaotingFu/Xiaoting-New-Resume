@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.10)  7 OCT 2018 21:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.10)  7 OCT 2018 21:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -276,13 +276,6 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 76.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 84.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 92.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -300,10 +293,10 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
  ) 
 Here is how much of TeX's memory you used:
- 6077 strings out of 493014
- 89270 string characters out of 6133350
- 183473 words of memory out of 5000000
- 9577 multiletter control sequences out of 15000+600000
+ 6062 strings out of 493014
+ 89021 string characters out of 6133350
+ 182496 words of memory out of 5000000
+ 9565 multiletter control sequences out of 15000+600000
  8924 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,11n,43p,254b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -313,7 +306,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 84758 bytes).
+Output written on resume.pdf (1 page, 84639 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream

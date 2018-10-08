@@ -61,9 +61,9 @@
 
 \renewcommand{\labelitemii}{$\circ$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[label={},leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
@@ -81,7 +81,33 @@
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
+
   \resumeSubHeadingListStart
+  \resumeSubheading
+      {Spoken Language Assessment for ESL Learner}{ArgLab, Raleigh, NC}
+      {Sept 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{ }
+          {Built an automatic spoken language assessment system based on the grammatical and semantical correctness of speech responses}
+        \resumeItem{ }
+          {Trained an ASR engine with 9,000+ utterances from ESL learners along with 1,000+ hours external speech }
+        \resumeItem{}
+          {Applied pitch normalization and speech adaptation techniques to reduce differences between different models}
+        \resumeItem{ }
+          {Trained a supervised neural network classifier on the output transcription for response quality assessment}
+      \resumeItemListEnd
+
+  \resumeSubheading
+  {FLECKS Project: Intelligent Agent Prototype }{ArgLab, Raleigh, NC}
+  {June 2018 - Present}
+  \resumeItemListStart
+    \resumeItem{Web Server Deployment}
+      {Deployed the RHEL server for web hosting with Docker Container}
+    \resumeItem{Audio Streaming}
+      {Coded the website to stream audio using Socket.io}
+      \resumeItem{Real-time Speech recognition }
+      {Integrated the Kaldi toolkit as a web service}
+  \resumeItemListEnd
   % Project 1
     \resumeSubheading
       {ABB Inc. Software Engineer Intern}{Raleigh, NC}
@@ -110,32 +136,6 @@
         \resumeItem{}
         {Compared word-error-rate (WER) of the existing open-source speech recognition toolkits on children speech corpus including Kaldi and CMU Sphinx.}
         \resumeItem{}{Applied speaker adaptation, vocal tract length normalization (VTLN) to improve the existing models.}
-      \resumeItemListEnd
-    
-    \resumeSubheading
-      {FLECKS Project: Intelligent Agent Prototype }{ArgLab, Raleigh, NC}
-      {June 2018 - Present}
-      \resumeItemListStart
-        \resumeItem{Web Server Deployment}
-          {Deployed the RHEL server for web hosting with Docker Container}
-        \resumeItem{Audio Streaming}
-          {Coded the website to stream audio using Socket.io}
-          \resumeItem{Real-time Speech recognition }
-          {Integrated the Kaldi toolkit as a web service}
-      \resumeItemListEnd
-
-      \resumeSubheading
-      {Spoken Language Assessment for ESL Learner}{ArgLab, Raleigh, NC}
-      {Sept 2018 - Present}
-      \resumeItemListStart
-        \resumeItem{ }
-          {Built an automatic spoken language assessment system based on the grammatical and semantical correctness of speech responses}
-        \resumeItem{ }
-          {Trained an ASR engine with 9,000+ utterances from ESL learners along with 1,000+ hours external speech }
-        \resumeItem{}
-          {Applied pitch normalization and speech adaptation techniques to reduce differences between different models}
-        \resumeItem{ }
-          {Trained a supervised neural network classifier on the output transcription for response quality assessment}
       \resumeItemListEnd
 
       \resumeSubheading
@@ -176,7 +176,7 @@
 \section{Skills and Interests}
  \resumeSubHeadingListStart
    \item{
-     \textbf{Languages}{: Python, Shell, Java, C\#, SQLite, NodeJS, Unix OS, Docker, Kaldi, CMU\-Sphinx}}
+     \textbf{Skills}{: Python, Shell, Java, C\#, SQLite, NodeJS, Unix OS, Docker, Kaldi, CMU\-Sphinx}}
   \item{
     \textbf{Interests}{: Spoken Language Processing (SLP) with Machine Learning, looking for SLP/NLP or SE internship}}
  \resumeSubHeadingListEnd
